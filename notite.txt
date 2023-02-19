@@ -12,3 +12,5 @@ git commit -am "mesaj"
 
 git push origin <denumirea branch-ului>
 - trimite modificarile facute local pe GitHub
+
+Controlez exranul Catalin
