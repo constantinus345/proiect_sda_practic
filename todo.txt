@@ -1,0 +1,13 @@
+# TODO = folder path in configs
+# TODO = explicat env vars
+# TODO = pus in git
+# TODO = gitignore
+# TODO = logging
+# TODO = dosare to notify: json, chei: 
+#       dosar nr, data_in, data_out, status
+# TODO = decorator la trimiterea mesajului
+# TODO = trimitere mesaj la telegram
+# TODO = lambda function to extract digits from string
+# re.findall('\d+', str1 )
+# TODO = utf 8 pandas to excel
+# 
