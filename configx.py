@@ -2,13 +2,13 @@ import os
 
 dosare_de_urmarit = {"clienti":[{
                      "nume_client":"Ion",
-                     "nr_dosar":"18-2p/o-2352-15112013",
+                     "nr_dosar":"28-2-2838-18042017",
                      "data_inregistrare":"2023-11-15",
                      "data_informare":""},
                      {"nume_client":"Ana",
-                     "nr_dosar":"20-1-7892-03072013",
+                     "nr_dosar":"20-3-366-14012013",
                      "data_inregistrare":"2023-01-18",
-                     "data_informare":"2023-04-14"
+                     "data_informare":""
                      }]}
 
 

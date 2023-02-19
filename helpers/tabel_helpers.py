@@ -9,7 +9,7 @@ def transforma_tabel_alfanumeric(tabel):
     #df['A'] = df['A'].apply(add_2)
     return tabel
 
-def filtreaza_tabel_de_interes_puclient(jsonx):
+def filtreaza_lista_dosare_de_interes_puclient(jsonx):
     
     lista_dosare_de_informat = []
     # lista_to_inform = filter_json_cu_valori_goale(configx.dosare_de_urmarit)
