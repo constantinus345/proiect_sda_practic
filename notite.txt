@@ -13,4 +13,13 @@ git commit -am "mesaj"
 git push origin <denumirea branch-ului>
 - trimite modificarile facute local pe GitHub
 
-Controlez exranul Catalin
+pip freeze >requirements.txt
+- creataza un fisier cu librariile instalate
+
+pip install -r requirements.txt
+- instaleaza librariile din fisierul requirements.txt
+- impreuna cu versiunile lor
+
+
+
+
