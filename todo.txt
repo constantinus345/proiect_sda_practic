@@ -1,0 +1,15 @@
+D TODO = folder path in configs
+D TODO = explicat env vars
+D TODO = pus in git
+D TODO = gitignore
+D TODO = logging
+# TODO = dosare to notify: json, chei: 
+#       dosar nr, data_in, data_out, status
+D TODO = stocare json in MongoDB - baza de date NoSQL (json)
+# TODO = functie pentru trimiterea mesajelor
+# TODO = decorator la trimiterea mesajului
+# TODO = trimitere mesaj la telegram
+D TODO = lambda function to extract digits from string
+D TODO = foloseste regex pentru extragere alfanumerice
+# TODO = utf 8 pandas to excel
+D(partial) TODO la clase explica __ methods
