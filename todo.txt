@@ -1,7 +1,7 @@
 # TODO = folder path in configs
 # TODO = explicat env vars
-# TODO = pus in git
-# TODO = gitignore
+D TODO = pus in git
+D TODO = gitignore
 # TODO = logging
 # TODO = dosare to notify: json, chei: 
 #       dosar nr, data_in, data_out, status
@@ -10,4 +10,5 @@
 # TODO = lambda function to extract digits from string
 # re.findall('\d+', str1 )
 # TODO = utf 8 pandas to excel
-# 
+# TODO la clase explica __ methods
+
