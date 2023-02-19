@@ -7,8 +7,8 @@ dosare_de_urmarit = {"clienti":[{
                      "data_informare":""},
                      {"nume_client":"Ana",
                      "nr_dosar":"20-1-7892-03072013",
-                     "data_inregistrare":"2023-11-18",
-                     "data_informare":"a"
+                     "data_inregistrare":"2023-01-18",
+                     "data_informare":"2023-04-14"
                      }]}
 
 
@@ -27,6 +27,11 @@ if not os.path.exists(f"{current_dir}/{Folder_logger_partial}"):
 #am creat folderul de logs daca el nu exista
     
 path_logs = f"{current_dir}/{Folder_logger_partial}/loguri.log"
+
+col_dosar_name = 'Numărul dosarului'
+
+tg_api = '6227517925:AAEG62y40j_iGJqvXdTSceUlejR1OdRagTQ'
+id_Constantin = 1307289323
 
 if __name__=='__main__':
     print(path_logs)

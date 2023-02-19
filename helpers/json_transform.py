@@ -18,14 +18,16 @@ def filter_json_cu_valori_goale(dosar_json):
     clienti_to_inform = []
     for client in dosar_json['clienti']:
         if client['data_informare'] == '':
-            pass
+            clienti_to_inform.append(client)
             
-    
-    
-    #imi returneaza dosarul filtrat
+    print(f"Din {len(dosar_json['clienti'])} clienti \
+        avem {len(clienti_to_inform)} clienti de informat".replace("  ",""))
+        
+    #imi returneaza lista de clienti care trebuie sa-i informez
     return clienti_to_inform
 
-dosar_to_inform = transform_dosare_json(configx.dosare_de_urmarit)
-print(dosar_to_inform)
+if __name__=="__main__":
+    lista_to_inform = filter_json_cu_valori_goale(configx.dosare_de_urmarit)
+    print(lista_to_inform)
 
 

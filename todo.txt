@@ -12,6 +12,4 @@ D TODO = stocare json in MongoDB - baza de date NoSQL (json)
 D TODO = lambda function to extract digits from string
 D TODO = foloseste regex pentru extragere alfanumerice
 # TODO = utf 8 pandas to excel
-D(partial) TODO la clase explica __ methods
-
-#test git
+D (partial) TODO la clase explica __ methods
