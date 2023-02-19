@@ -10,7 +10,6 @@ url = 'https://instante.justice.md/ro/hotaririle-instantei?Instance=All&Numarul_
 
 Path_data = 'D:/Python_Code/proiect_sda_practic/data'
 
-
 import os
 pa = pa = 'parola_secreta'
 os.environ['pa_sec'] = pa
@@ -20,5 +19,6 @@ os.environ['pa_sec'] = pa
 par = os.environ.get('pa_sec')
 #linia de mai sus extrage parola secreta din sistemul de operare
 print(par)
+
 
 

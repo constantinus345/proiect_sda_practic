@@ -1,0 +1,14 @@
+COMENZI DE git
+
+git init - initializeaza un repository local
+git remote add origin <url>
+- conecteaza un repository local la unul remote de pe GitHub
+
+git add -all
+- adauga toate fisierele din directorul curent in git
+
+git commit -am "mesaj"
+- este salvarea modificarilor facute in repository
+
+git push origin <denumirea branch-ului>
+- trimite modificarile facute local pe GitHub

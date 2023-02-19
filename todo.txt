@@ -1,5 +1,5 @@
 # TODO = folder path in configs
-# TODO = explicat env vars
+D TODO = explicat env vars
 D TODO = pus in git
 D TODO = gitignore
 # TODO = logging
