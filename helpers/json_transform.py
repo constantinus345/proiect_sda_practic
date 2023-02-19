@@ -1,10 +1,6 @@
 import re
 import configx
 
-import sys
-print(sys.path)
-
-
 extr = lambda strx: "".join(re.findall('[a-zA-Z\d]+', strx))
 #functie lambda care extrage doar caracterele cifre&litere dintr-un string
 
@@ -17,15 +13,19 @@ def transform_dosare_json(dosar_json):
     #apoi am returnat dosar_json modificat
     return dosar_json
 
+
 def filter_json_cu_valori_goale(dosar_json):
-    
+    clienti_to_inform = []
     for client in dosar_json['clienti']:
         if client['data_informare'] == '':
-            dosar_json['clienti'].remove(client)
+            pass
+            
     
     
     #imi returneaza dosarul filtrat
-    return dosar_json
+    return clienti_to_inform
 
+dosar_to_inform = transform_dosare_json(configx.dosare_de_urmarit)
+print(dosar_to_inform)
 
 

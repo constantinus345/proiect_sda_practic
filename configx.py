@@ -8,7 +8,7 @@ dosare_de_urmarit = {"clienti":[{
                      {"nume_client":"Ana",
                      "nr_dosar":"20-1-7892-03072013",
                      "data_inregistrare":"2023-11-18",
-                     "data_informare":""
+                     "data_informare":"a"
                      }]}
 
 

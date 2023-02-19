@@ -6,7 +6,3 @@ from configx import url
 tbx = citire_tabel_din_url(url, 2)
 
 salvare_tabel_in_excel(tbx, "date_noi.xlsx")
-
-
-# import sys
-# print(sys.path)
