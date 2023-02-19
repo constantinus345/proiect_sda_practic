@@ -1,4 +1,6 @@
 import pandas as pd
+import os
+print(os.getcwd())
 
 import config
 
@@ -36,5 +38,4 @@ if __name__ == "__main__":
 
     
 
-    
     

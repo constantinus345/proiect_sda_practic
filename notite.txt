@@ -20,6 +20,14 @@ pip install -r requirements.txt
 - instaleaza librariile din fisierul requirements.txt
 - impreuna cu versiunile lor
 
+git init
+git status
+git remote add origin <url>
+git checkout -b feature_1
+git branch --set-upstream-to origin <branchname>
+git pull origin feature_1
+
+git stash - pune de o parte niste modificari
 
 
 
